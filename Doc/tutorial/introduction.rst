@@ -196,6 +196,7 @@ and workarounds.
 
 String literals can span multiple lines.  One way is using triple-quotes:
 ``"""..."""`` or ``'''...'''``.  End of lines are automatically
+``"""..."""`` or ``'''...'''``.  End of each line is automatically
 included in the string, but it's possible to prevent this by adding a ``\`` at
 the end of the line.  In the following example, the initial newline is not
 included::
